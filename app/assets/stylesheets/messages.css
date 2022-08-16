@@ -17,6 +17,9 @@
 .side-header {
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 100px;
 }
 
 .header {
@@ -37,8 +40,33 @@
   background-color: #FFFFFF
 }
 
-.room {
+.rooms {
   background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
+}
+
+a {
+  text-decoration: none;
+}
+
+.user_name a {
+  color: #FAFAFA;
+  font-size: 16px;
+}
+
+.chat_create a {
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  font-size: 10px;
+}
+
+.room_name a {
+  color: white;
+}
+
+.room {
+  padding: 20px 0 40px;
 }

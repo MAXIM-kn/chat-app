@@ -51,13 +51,10 @@
   overflow: scroll;
 }
 
-a {
-  text-decoration: none;
-}
-
 .user_name a {
   color: #FAFAFA;
   font-size: 16px;
+  text-decoration: none;
 }
 
 .chat_create a {
@@ -65,10 +62,12 @@ a {
   border: 1px solid lightblue;
   padding: 14px;
   font-size: 10px;
+  text-decoration: none;
 }
 
 .room_name a {
   color: white;
+  text-decoration: none;
 }
 
 .room {
@@ -85,6 +84,7 @@ a {
   padding: 20px;
   border: 1px solid darkred;
   color: darkred;
+  text-decoration: none;
 }
 
 .header_right {

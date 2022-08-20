@@ -91,24 +91,35 @@
   margin-top: 40px;
 }
 
-.name {
-  margin: 10px 0;
-  font-size: 16px;
-  color: #434A54;
+.message {
+  margin: 10px 0 0 0;
+}
+
+.upper-message{
   display: flex;
 }
 
-.time {
-  margin-left: 10px;
-  font-size: 12px;
-  color: #999;
+.message-user {
+  color: #434a54;
+  font-size: 16px;
 }
 
-.message {
+.message-date {
+  color: #999;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.lower-message {
+  margin-top: 10px;
+}
+
+.message-content {
+  color: #434a54;
   font-size: 14px;
-  color: #434A54;
   margin-bottom: 40px;
 }
+
 
 .form-input {
   background-color: white;
